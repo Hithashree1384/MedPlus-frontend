@@ -11,9 +11,10 @@ import DocHome from './pages/DocHome'
 import List from './doctors/List'
 import Edit from './doctors/Edit'
 import Appointment from './pages/Appointment'
-import VerifyPayment from '../VerifyPayment'
-import VerifyServicePayment from '../VerifyServicePayment'
+
 import AIWidget from './components/AIWidget'
+import VerifyServicePayment from './VerifyServicePayment'
+import VerifyPayment from './VerifyPayment'
 
 const App = () => {
   return (
