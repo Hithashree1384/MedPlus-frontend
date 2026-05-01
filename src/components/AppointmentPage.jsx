@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { appointmentPageStyles, cardStyles, badgeStyles, iconSize } from '../assets/dummyStyles'
-import { CalendarDays, CheckCircle, Clock, CreditCard, Wallet,XCircle } from 'lucide-react';
+import { Bell, CalendarDays, CheckCircle, Clock, CreditCard, Wallet,XCircle } from 'lucide-react';
 import axios from "axios";
 import { Toaster } from 'react-hot-toast';
 import { useAuth, useUser } from '@clerk/clerk-react';
