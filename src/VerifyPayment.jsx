@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 
+import { API_BASE } from "../config";
 
-const API_BASE="http://localhost:4000"
 
 const VerifyPayment = () => {
     const location=useLocation();
